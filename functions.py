@@ -1,4 +1,7 @@
-from config import *
+import time
+import requests
+from importlib import reload
+from _config import *
 
 
 def get_safe(url, headers=None, cookies=None, error=0, rtype='text'):
